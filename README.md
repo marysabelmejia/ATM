@@ -35,7 +35,7 @@ Load the HTML file onto your web browser, test out the features, and make change
 
 - [X] Change style
 - [ ] Adding validation so users can’t withdraw more money than the account balance
-- [ ] Modifying the user interface to require users to select deposit or withdraw before an input field is visible
+- [X] Modifying the user interface to require users to select deposit or withdraw before an input field is visible
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
