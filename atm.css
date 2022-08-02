@@ -1,0 +1,18 @@
+.body {
+    background-color: aquamarine;
+}
+
+.Title {
+    font-weight: bold;
+    font-family: Arial;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.deposit {
+    background-color: greenyellow;
+}
+
+.cashback {
+    background-color: red;
+}
