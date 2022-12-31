@@ -43,13 +43,13 @@ Screenshots
 
 <!-- Technology Used -->
 ## Technology Stack
-*MERN
-*MongoDB
-*Express
-*React
-*Node JS
-*Docker
-*Bootsrap
+* MERN
+* MongoDB
+* Express
+* React
+* Node JS
+* Docker
+* Bootsrap
 Load the HTML file onto your web browser, test out the features, and make changes as you wish.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
