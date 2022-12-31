@@ -8,7 +8,7 @@
     </li>
     <li><a href="#Installation">Installation Guidelines</a></li>
     <li><a href="#screenshots">Screenshots</a></li>
-    <li><a href="#Technology-Used">Technology Used</a></li>
+    <li><a href="#Technology-Used">Technology Stack</a></li>
     <li><a href="#features">Features</a></li>
     <li><a href="#license">License</a></li>
   </ol>
@@ -18,7 +18,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Throughout this week, we developed an ATM. Initially, it was simple and simply noted the deposited amount entered. It progressed to build its deposits, include withdrawals, and keep track of the account balance.
+Throughout this course, we have developed an ATM app with no security, hence the name BadBank. It has progressed to include the abilities to create an account, login into the account, and complete typical bank functions (i.e. deposit, without, check your balance). It also keeps track of all of your transactions. This application is a fullstack banking application and is able to manage state and User Interface with React. It manages API calls with Express and uses Node as webserver while MongoDB is used as a datastore.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -26,20 +26,30 @@ Throughout this week, we developed an ATM. Initially, it was simple and simply n
 <!-- Installation Guidelines -->
 ## Installation Guidelines
 
-Load the HTML file onto your web browser, test out the features, and make changes as you wish.
+Instructions to get it up and running:
+
+
+SAMPLE________To download this project, download the project files to your local environment and save in a new directory. Open the project directory in a text editor (VS Code), You can then open a new terminal in VS Code and type 'npm install' to install the project dependancies. You should see a directory labelled node_modules in the project directory. After npm install is completed, run http-server in terminal. This will give you the port on which the project is running and run the project in your local environment.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- Screenshots -->
-## Screenshots
+Screenshots
+## ![Home](https://user-images.githubusercontent.com/102928783/210150506-0ca3c972-3b4d-4b30-92e8-72b6a60cdfd9.jpg)
 
-Load the HTML file onto your web browser, test out the features, and make changes as you wish.
+![account](https://user-images.githubusercontent.com/102928783/210150509-47039c2d-14ac-49e6-ae2e-511bf768626f.jpg)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- Technology Used -->
-## Technology Used
-
+## Technology Stack
+*MERN
+*MongoDB
+*Express
+*React
+*Node JS
+*Docker
+*Bootsrap
 Load the HTML file onto your web browser, test out the features, and make changes as you wish.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -47,13 +57,23 @@ Load the HTML file onto your web browser, test out the features, and make change
 <!-- Features -->
 ## Features
 
-- [X] Change style
-- [ ] Adding validation so users can’t withdraw more money than the account balance
-- [X] Modifying the user interface to require users to select deposit or withdraw before an input field is visible
+Features:
+- [X] Home
+- [X] Create Account
+- [X] Login
+- [X] Deposit
+- [X] Withdraw
+- [X] Balanace
+- [X] All Data (History of Transactions)
+Coming Features:
+- [ ] Roles for different users
+- [ ] Monery transfer between users
+- [ ] Account types (i.e. checking vs. savings)
+- [ ] Assignment of random account numbers
+- [ ] User profile updates that are persistent
+- [ ] Check deposit by taking picture of the check
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 ## License
