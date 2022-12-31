@@ -1,4 +1,4 @@
-<h1> ATM</h1>
+<h1>BadBank</h1>
 
 <details>
   <summary>Table of Contents</summary>
@@ -6,8 +6,10 @@
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#Installation">Installation Guidelines</a></li>
+    <li><a href="#screenshots">Screenshots</a></li>
+    <li><a href="#Technology-Used">Technology Used</a></li>
+    <li><a href="#features">Features</a></li>
     <li><a href="#license">License</a></li>
   </ol>
 </details>
@@ -21,17 +23,29 @@ Throughout this week, we developed an ATM. Initially, it was simple and simply n
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
+<!-- Installation Guidelines -->
+## Installation Guidelines
 
 Load the HTML file onto your web browser, test out the features, and make changes as you wish.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- Screenshots -->
+## Screenshots
 
+Load the HTML file onto your web browser, test out the features, and make changes as you wish.
 
-<!-- ROADMAP -->
-## Roadmap
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Technology Used -->
+## Technology Used
+
+Load the HTML file onto your web browser, test out the features, and make changes as you wish.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Features -->
+## Features
 
 - [X] Change style
 - [ ] Adding validation so users can’t withdraw more money than the account balance
