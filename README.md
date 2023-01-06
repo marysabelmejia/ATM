@@ -27,9 +27,13 @@ Throughout this course, we have developed an ATM app with no security, hence the
 ## Installation Guidelines
 
 Instructions to get it up and running:
+Download the project files. Open the project directory in VS Code. Open a new terminal and run the following:
+* npm init -y
+* npm install express
+* npm install cors
+* node index.js
 
-
-SAMPLE________To download this project, download the project files to your local environment and save in a new directory. Open the project directory in a text editor (VS Code), You can then open a new terminal in VS Code and type 'npm install' to install the project dependancies. You should see a directory labelled node_modules in the project directory. After npm install is completed, run http-server in terminal. This will give you the port on which the project is running and run the project in your local environment.
+This will give you the port on which the project is running and run the project in your local environment.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
