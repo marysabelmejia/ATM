@@ -9,7 +9,7 @@ function UserContextProvider({ children }) {
     currentUserEmail: null,
     audit: [],
   });
-fetch('http://localhost:3000/account/all')
+fetch('https://stark-citadel-97570.herokuapp.com/account/all')
   .then((response) => response.json())
   .then(data => setState({ ...state, users: data }));
 
