@@ -21,7 +21,7 @@ function Login() {
     if (!validate(email, "Email required.")) return;
     if (!validate(password, "Password required.")) return;
     
-    fetch(`http://localhost:3000/account/login/${email}/${password}`)
+    fetch(`http://badbank-mm.vercel.app/account/login/${email}/${password}`)
     .then(response => response.json())
     .then(data => {
     console.log({ctx})
