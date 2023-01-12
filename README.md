@@ -73,7 +73,7 @@ Coming Features:
 - [ ] Roles for different users
 - [ ] Monery transfer between users
 - [ ] Account types (i.e. checking vs. savings)
-- [ ] Assignment of random account numbers
+- [X] Assignment of random account numbers
 - [ ] User profile updates that are persistent
 - [ ] Check deposit by taking picture of the check
 
