@@ -88,7 +88,7 @@ app.get('http://localhost:3000/account/update/:email/:amount', function (req, re
 });
 
 // all accounts
-app.get('http://localhost:3000/account/:all', function (req, res) {
+app.get('http://localhost:3000/account/all', function (req, res) {
 
     dal.all().
         then((docs) => {
