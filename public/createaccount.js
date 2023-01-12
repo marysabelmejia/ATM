@@ -26,7 +26,7 @@ function CreateAccount() {
     alert("Password must be 8 characters long.");
     return;
     }}
-    fetch(`http://badbank-mm.vercel.app/account/create/${name}/${email}/${password}`)
+    fetch(`https://badbank-mm.vercel.app/account/create/${name}/${email}/${password}`)
     .then(response => response.json())
     .then(data => console.log('this comes from the backend', data))
     
