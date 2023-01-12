@@ -9,7 +9,7 @@ function UserContextProvider({ children }) {
     currentUserEmail: null,
     audit: [],
   });
-fetch('http://badbank-mm.vercel.app/account/all')
+fetch('https://badbank-mm.vercel.app/account/all')
   .then((response) => response.json())
   .then(data => setState({ ...state, users: data }));
 
