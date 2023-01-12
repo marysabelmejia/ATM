@@ -22,7 +22,7 @@ function Balance() {
   }
   />
   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-  <button onClick={() => getRndInteger(10000,99999)} disabled={number !== null} class="button">Account Number:</button>
+  <button onClick={() => getRndInteger(10000,99999)} disabled={number !== null} className="button">Account Number:</button>
   {number}
   </div>
   </div>
