@@ -8,7 +8,7 @@ app.use(express.static('public'));
 app.use(cors());
 
 // create user account
-app.get('http://badbank-mm.vercel.app/account/create/:name/:email/:password', function (req, res) {
+app.get('https://badbank-mm.vercel.app/account/create/:name/:email/:password', function (req, res) {
 
     // check if account exists
     dal.find(req.params.email).
@@ -33,7 +33,7 @@ app.get('http://badbank-mm.vercel.app/account/create/:name/:email/:password', fu
 
 
 // login user 
-app.get('http://badbank-mm.vercel.app/account/login/:email/:password', function (req, res) {
+app.get('https://badbank-mm.vercel.app/account/login/:email/:password', function (req, res) {
 
     dal.find(req.params.email).
         then((user) => {
@@ -55,7 +55,7 @@ app.get('http://badbank-mm.vercel.app/account/login/:email/:password', function 
 });
 
 // find user account
-app.get('http://badbank-mm.vercel.app/account/find/:email', function (req, res) {
+app.get('https://badbank-mm.vercel.app/account/find/:email', function (req, res) {
 
     dal.find(req.params.email).
         then((user) => {
@@ -65,7 +65,7 @@ app.get('http://badbank-mm.vercel.app/account/find/:email', function (req, res) 
 });
 
 // find one user by email - alternative to find
-app.get('http://badbank-mm.vercel.app/account/findOne/:email', function (req, res) {
+app.get('https://badbank-mm.vercel.app/account/findOne/:email', function (req, res) {
 
     dal.findOne(req.params.email).
         then((user) => {
@@ -76,7 +76,7 @@ app.get('http://badbank-mm.vercel.app/account/findOne/:email', function (req, re
 
 
 // update - deposit/withdraw amount
-app.get('http://badbank-mm.vercel.app/account/update/:email/:amount', function (req, res) {
+app.get('https://badbank-mm.vercel.app/account/update/:email/:amount', function (req, res) {
 
     var amount = Number(req.params.amount);
 
@@ -88,7 +88,7 @@ app.get('http://badbank-mm.vercel.app/account/update/:email/:amount', function (
 });
 
 // all accounts
-app.get('http://badbank-mm.vercel.app/account/all', function (req, res) {
+app.get('https://badbank-mm.vercel.app/account/all', function (req, res) {
 
     dal.all().
         then((docs) => {
